@@ -89,7 +89,7 @@ DATABASES = {
     'default': {
         'ENGINE': 'djongo',
         'CLIENT': {
-            "host":"mongodb+srv://dbNico:dbNico@nicopac.o07yrpd.mongodb.net/?retryWrites=true&w=majority"
+            "host":"mongodb+srv://dbNico:<pass>@nicopac.o07yrpd.mongodb.net/?retryWrites=true&w=majority"
             ,"name":"mytestdb",
             "authMechanism":"SCRAM-SHA-1" #Para conexiones Atlas
         }
